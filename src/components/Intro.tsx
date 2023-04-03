@@ -4,9 +4,9 @@ import Typewriter from "typewriter-effect";
 export default function Intro() {
     return (
         <div>
-            <div>
+            <div className="text-3xl text-white">
                 Hello!
-                <div>
+                <div className="">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter

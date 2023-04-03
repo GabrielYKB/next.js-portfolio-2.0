@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Navbar() {
-    return <div>Navbar</div>;
+    return (
+        <div className="w-full bg-[var(--primary)] border-b-solid border-b-2 border-b-[var(--secondary)] h-10">
+            Navbar
+        </div>
+    );
 }

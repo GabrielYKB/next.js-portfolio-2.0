@@ -6,7 +6,7 @@ type Props = {};
 
 export default function index({}: Props) {
     return (
-        <div className="">
+        <div className="bg-[var(--bg)] h-screen">
             <Navbar />
             <Intro />
         </div>
