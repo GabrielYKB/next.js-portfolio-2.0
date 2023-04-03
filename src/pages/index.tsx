@@ -1,14 +1,12 @@
-import Intro from "@/components/Intro";
 import React from "react";
 import Navbar from "@/components/Navbar";
+import MainPage from "@/components/MainPage";
 
-type Props = {};
-
-export default function index({}: Props) {
+export default function index() {
     return (
         <div className="bg-[var(--bg)] h-screen">
             <Navbar />
-            <Intro />
+            <MainPage />
         </div>
     );
 }
