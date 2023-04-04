@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Intro() {
     return (
         <div>
-            <div className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <div className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 max-w-5xl">
                 Hello!
                 <div className="text-white font-bold">
                     <Typewriter
