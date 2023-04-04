@@ -13,7 +13,7 @@ export default function Intro() {
                                 .start()
                                 .changeDelay(65)
                                 .typeString(
-                                    "My name is Gabriel and I'm an software developer."
+                                    "My name is Gabriel and I'm a software developer."
                                 );
                         }}
                     />

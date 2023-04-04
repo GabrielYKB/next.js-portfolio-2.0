@@ -3,8 +3,12 @@ import Intro from "./Intro";
 
 export default function MainPage() {
     return (
-        <div>
-            <Intro />
+        <div className="bg-[var(--primary)] h-screen mx-56">
+            <div>
+                <div>
+                    <Intro />
+                </div>
+            </div>
         </div>
     );
 }
