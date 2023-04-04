@@ -4,17 +4,22 @@ import Typewriter from "typewriter-effect";
 export default function Intro() {
     return (
         <div>
-            <div className="text-3xl text-white">
+            <div className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Hello!
-                <div className="">
+                <div className="text-white font-bold">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .start()
-                                .changeDelay(65)
+                                .changeDelay(55)
                                 .typeString(
                                     "My name is Gabriel and I'm a software developer."
-                                );
+                                )
+                                .pauseFor(2000)
+                                .changeDeleteSpeed(15)
+                                .deleteChars(48)
+                                .typeString("Welcome to my portfolio page!")
+                                .pauseFor(1000)
+                                .start();
                         }}
                     />
                 </div>
