@@ -4,7 +4,7 @@ import Hero from "./Hero";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen ">
+        <div className="bg-[var(--bg)] h-screen">
             <div>
                 <div className="flex">
                     <Intro />
