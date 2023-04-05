@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <div className="w-full bg-[var(--bg)] border-b-solid border-b-2 border-b-[var(--secondary)] h-8 text-white text-xl">
-            <div className="pl-3 flex justify-between">
+        <div className="w-full bg-[var(--bg)] border-b-solid border-b-2 border-b-[var(--secondary)] h-8 text-white text-xl fixed">
+            <div className="pl-3 flex justify-center">
                 GY
                 <div className="pr-3 gap-3 flex ">
                     <div className="hover:text-indigo-600">

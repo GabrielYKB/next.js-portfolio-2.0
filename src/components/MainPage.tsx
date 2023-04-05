@@ -1,16 +1,15 @@
 import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
-import Card from "./Card";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen">
-            <div>
-                <div className="flex mt-10 ml-3">
+        <div className="bg-[var(--bg)] h-screen flex">
+            <div className="mt-24">
+                <div className="fixed left-80 top-52">
                     <Intro />
-                    <Hero />
                 </div>
+                <Hero />
             </div>
         </div>
     );
