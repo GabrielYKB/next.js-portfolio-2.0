@@ -1,6 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
+import Card from "./Card";
 
 export default function MainPage() {
     return (
