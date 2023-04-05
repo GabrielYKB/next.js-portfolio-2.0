@@ -6,7 +6,7 @@ export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-screen">
             <div>
-                <div className="flex">
+                <div className="flex mt-10 ml-3">
                     <Intro />
                     <Hero />
                 </div>

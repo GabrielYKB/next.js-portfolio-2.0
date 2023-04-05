@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             boxShadow: {
-                offset: "-10px -10px rgba(255, 0, 0, 1)",
+                offset: "-10px -10px rgb(255,0,0)",
             },
         },
     },
