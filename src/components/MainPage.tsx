@@ -5,7 +5,7 @@ import Skills from "./Skills";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen  ">
+        <div className="bg-[var(--bg)] h-full">
             <div className="justify-between flex mx-56 p-56">
                 <div className="py-20">
                     <Intro />
