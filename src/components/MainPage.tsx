@@ -4,12 +4,12 @@ import Hero from "./Hero";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen flex">
-            <div className="mt-24">
-                <div className="fixed left-80 top-52">
-                    <Intro />
+        <div className="bg-[var(--bg)] h-screen  ">
+            <div className="justify-between flex mx-56 p-48">
+                <Intro />
+                <div>
+                    <Hero />
                 </div>
-                <Hero />
             </div>
         </div>
     );
