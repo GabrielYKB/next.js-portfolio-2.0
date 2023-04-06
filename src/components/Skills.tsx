@@ -3,7 +3,7 @@ import React from "react";
 export default function Skills() {
     return (
         <div className="mx-72 text-white text-2xl">
-            <div className=" border-b-2 border-violet-500  flex justify-center mb-16">
+            <div className="border-b-2 border-violet-500  flex justify-center mb-16">
                 My Skills
             </div>
             <div className="flex justify-evenly">

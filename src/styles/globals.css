@@ -7,3 +7,6 @@
     --primary: #323232;
     --secondary: #636363;
 }
+.Typewriter__cursor {
+    visibility: hidden;
+}
