@@ -5,8 +5,8 @@ export default function Intro() {
     return (
         <div className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-green-600 max-w-xl">
             Hello!
-            <div className="py-2 text-white font-bold">
-                <div className="pb-5">
+            <div className="text-white font-bold">
+                <div className="py-4">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
