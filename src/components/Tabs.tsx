@@ -5,11 +5,11 @@ export default function Tabs() {
     const tabsData = [
         {
             label: "My Skills",
-            content: "Frontend and backend developer",
+            content: <Skills />,
         },
         {
             label: "Contact",
-            content: <Skills />,
+            content: "gabriel.yakooub@gmail.com",
         },
         {
             label: "About me",
@@ -20,8 +20,8 @@ export default function Tabs() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
     return (
-        <div className="text-white">
-            <div className="flex space-x-3 border-b">
+        <div className="mx-72 text-white text-2xl">
+            <div className="border-b-2 border-violet-500 space-x-10 flex justify-center mb-16">
                 {tabsData.map((tab, idx) => {
                     return (
                         <button
@@ -38,9 +38,7 @@ export default function Tabs() {
                     );
                 })}
             </div>
-            <div className="py-4">
-                <p>{tabsData[activeTabIndex].content}</p>
-            </div>
+            <div className="py-4">{tabsData[activeTabIndex].content}</div>
         </div>
     );
 }
