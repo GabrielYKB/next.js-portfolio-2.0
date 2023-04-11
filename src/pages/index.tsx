@@ -3,7 +3,7 @@ import MainPage from "@/components/MainPage";
 
 export default function index() {
     return (
-        <div>
+        <div className="">
             <MainPage />
         </div>
     );

@@ -3,11 +3,9 @@ import Tilt from "react-parallax-tilt";
 
 export default function Card() {
     return (
-        <div>
+        <div className="flex">
             <Tilt>
-                <div className="h-32 w-32 bg-blue-400">
-                    <h1>test</h1>
-                </div>
+                <div className="h-32 w-32 bg-blue-400"></div>
             </Tilt>
         </div>
     );
