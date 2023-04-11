@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
 import Skills from "./Skills";
+import { Tabs } from "@material-tailwind/react";
 
 export default function MainPage() {
     return (
