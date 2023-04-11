@@ -20,7 +20,7 @@ export default function Tabs() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
     return (
-        <div>
+        <div className="text-white">
             <div className="flex space-x-3 border-b">
                 {tabsData.map((tab, idx) => {
                     return (
@@ -31,13 +31,15 @@ export default function Tabs() {
                                     ? "border-teal-500"
                                     : "border-transparent hover:border-gray-200"
                             }`}
-                            // Change the active tab on click.
                             onClick={() => setActiveTabIndex(idx)}
                         >
                             {tab.label}
                         </button>
                     );
                 })}
+            </div>
+            <div className="py-4">
+                <p>{tabsData[activeTabIndex].content}</p>
             </div>
         </div>
     );
