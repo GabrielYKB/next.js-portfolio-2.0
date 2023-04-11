@@ -2,7 +2,7 @@ import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
 import Skills from "./Skills";
-import { Tabs } from "@material-tailwind/react";
+import Tabs from "./Tabs";
 
 export default function MainPage() {
     return (
@@ -15,7 +15,7 @@ export default function MainPage() {
                     <Hero />
                 </div>
             </div>
-            <Skills />
+            <Tabs />
         </div>
     );
 }

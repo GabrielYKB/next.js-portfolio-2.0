@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Skills from "./Skills";
 
 export default function Tabs() {
     const tabsData = [
@@ -8,7 +9,7 @@ export default function Tabs() {
         },
         {
             label: "Contact",
-            content: "My Email, number and address information",
+            content: <Skills />,
         },
         {
             label: "About me",
@@ -18,5 +19,26 @@ export default function Tabs() {
 
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
-    return <div>Tabs</div>;
+    return (
+        <div>
+            <div className="flex space-x-3 border-b">
+                {tabsData.map((tab, idx) => {
+                    return (
+                        <button
+                            key={idx}
+                            className={`py-2 border-b-4 transition-colors duration-300 ${
+                                idx === activeTabIndex
+                                    ? "border-teal-500"
+                                    : "border-transparent hover:border-gray-200"
+                            }`}
+                            // Change the active tab on click.
+                            onClick={() => setActiveTabIndex(idx)}
+                        >
+                            {tab.label}
+                        </button>
+                    );
+                })}
+            </div>
+        </div>
+    );
 }
