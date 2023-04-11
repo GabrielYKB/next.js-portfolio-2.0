@@ -1,7 +1,6 @@
 import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
-import Skills from "./Skills";
 import Tabs from "./Tabs";
 
 export default function MainPage() {

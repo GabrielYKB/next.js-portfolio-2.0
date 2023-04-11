@@ -27,17 +27,17 @@ export default function Tabs() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
     return (
-        <div className=" bg-[var(--bg)] h-max">
+        <div className=" bg-[var(--bg)] pb-10 ">
             <div className="mx-72 text-white text-2xl ">
-                <div className="border-b-2 border-violet-500 space-x-10 flex justify-center mb-16">
+                <div className="border-b-4 border-violet-500 flex justify-center mb-16">
                     {tabsData.map((tab, idx) => {
                         return (
                             <button
                                 key={idx}
-                                className={`py-2 border-b-4 transition-colors duration-300 ${
+                                className={`py-2 transition-colors duration-300 ${
                                     idx === activeTabIndex
-                                        ? "border-teal-500"
-                                        : "border-transparent hover:border-gray-200"
+                                        ? "bg-violet-500 rounded-t-xl px-8"
+                                        : "bg-transparent rounded-t-xl px-8 hover:border-white"
                                 }`}
                                 onClick={() => setActiveTabIndex(idx)}
                             >

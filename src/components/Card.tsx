@@ -5,7 +5,7 @@ export default function Card() {
     return (
         <div className="flex">
             <Tilt>
-                <div className="h-32 w-32 bg-blue-400"></div>
+                <div className="h-80 w-56 bg-blue-400"></div>
             </Tilt>
         </div>
     );
