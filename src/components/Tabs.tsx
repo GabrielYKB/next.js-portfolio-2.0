@@ -3,8 +3,9 @@ import Skills from "./Skills";
 import Work from "./Work";
 import About from "./About";
 import Contact from "./Contact";
-import AboutTitle from "./AboutTitle";
-import ContactTitle from "./ContactTitle";
+import AboutTitle from "./Titles/AboutTitle";
+import ContactTitle from "./Titles/ContactTitle";
+import SkillsTitle from "./Titles/SkillsTitle";
 
 export default function Tabs() {
     const tabsData = [
@@ -17,7 +18,7 @@ export default function Tabs() {
             content: <Contact />,
         },
         {
-            label: "My Skills",
+            label: <SkillsTitle />,
             content: <Skills />,
         },
         {
