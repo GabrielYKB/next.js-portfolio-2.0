@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WorkTitle() {
     return (
-        <div className="flex items-center space-x-1">
+        <div className="flex items-center space-x-2">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
