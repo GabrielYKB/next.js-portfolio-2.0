@@ -31,7 +31,7 @@ export default function Tabs() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
     return (
-        <div className=" bg-[var(--bg)] pb-10 ">
+        <div className=" bg-[var(--bg)]  ">
             <div className="mx-72 text-white text-2xl ">
                 <div className="border-b-4 border-violet-500 flex justify-center mb-16">
                     {tabsData.map((tab, idx) => {

@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 export default function Work() {
     return (
-        <div>
+        <div className="h-96">
             <Cards />
         </div>
     );
