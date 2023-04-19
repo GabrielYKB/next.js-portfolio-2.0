@@ -11,20 +11,20 @@ import WorkTitle from "./Titles/WorkTitle";
 export default function Tabs() {
     const tabsData = [
         {
-            label: <AboutTitle />,
-            content: <About />,
-        },
-        {
-            label: <ContactTitle />,
-            content: <Contact />,
+            label: <WorkTitle />,
+            content: <Work />,
         },
         {
             label: <SkillsTitle />,
             content: <Skills />,
         },
         {
-            label: <WorkTitle />,
-            content: <Work />,
+            label: <AboutTitle />,
+            content: <About />,
+        },
+        {
+            label: <ContactTitle />,
+            content: <Contact />,
         },
     ];
 
