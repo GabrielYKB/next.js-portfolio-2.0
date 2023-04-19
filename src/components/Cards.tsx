@@ -3,10 +3,7 @@ import Card from "./Card";
 
 export default function Cards() {
     return (
-        <div className="flex space-x-20 justify-center">
-            <Card />
-            <Card />
-            <Card />
+        <div className="">
             <Card />
         </div>
     );
