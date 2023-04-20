@@ -5,7 +5,12 @@ export default function Card() {
     const cardsData = [
         {
             label: "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/641d79095b3c99786038f958/screenshot_2023-03-24-10-19-49-0000.png",
-            content: "Kanban Board",
+            content: (
+                <div>
+                    <h2>Kanban Board</h2>
+                    <p>This is a Kanban Board</p>
+                </div>
+            ),
             link: "https://chimera-ant.netlify.app/",
             repo: "https://github.com/GabrielYKB/kanban-board",
         },
