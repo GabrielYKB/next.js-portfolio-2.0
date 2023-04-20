@@ -7,8 +7,13 @@ export default function Card() {
             label: "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/641d79095b3c99786038f958/screenshot_2023-03-24-10-19-49-0000.png",
             content: (
                 <div>
-                    <h2>Kanban Board</h2>
-                    <p>This is a Kanban Board</p>
+                    <h2 className="border-b-2 justify-center mx-5 pb-1 text-lg font-medium">
+                        Kanban Board
+                    </h2>
+                    <p className="text-sm py-2 font-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore, vero.
+                    </p>
                 </div>
             ),
             link: "https://chimera-ant.netlify.app/",
@@ -34,8 +39,6 @@ export default function Card() {
         },
     ];
 
-    const [cardData, setCardData] = useState([]);
-
     return (
         <div className="flex space-x-20 justify-center">
             {cardsData.map((card, dsc) => {
@@ -47,15 +50,13 @@ export default function Card() {
                                     <img src="github-mark.svg" />
                                 </a>
                             </div>
-                            <div className=" bg-[var(--secondary)] rounded-lg m-3">
-                                <a href={card.link}>
-                                    <img
-                                        className="rounded-lg h-28"
-                                        src={card.label}
-                                        alt="Project preview"
-                                    />
-                                </a>
-                            </div>
+                            <a href={card.link}>
+                                <img
+                                    className="rounded-lg m-3 h-28"
+                                    src={card.label}
+                                    alt="Project preview"
+                                />
+                            </a>
                             <div className=" bg-[var(--secondary)] w-44 h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
                                 {card.content}
                             </div>
