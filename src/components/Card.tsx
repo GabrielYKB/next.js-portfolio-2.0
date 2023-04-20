@@ -12,7 +12,7 @@ export default function Card() {
         {
             label: "img2",
             content: "Slack Clone",
-            link: "",
+            link: "https://kaleidoscopic-puffpuff-d3ffcd.netlify.app",
             repo: "https://github.com/GabrielYKB/Slack-clone",
         },
         {
@@ -36,22 +36,22 @@ export default function Card() {
             {cardsData.map((card, dsc) => {
                 return (
                     <Tilt>
-                        <div className="h-80 w-56 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col">
+                        <div className="h-80 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col">
                             <div className="h-8 w-8 bg-white fixed right-1 top-1 rounded-full">
                                 <a href={card.repo}>
                                     <img src="github-mark.svg" />
                                 </a>
                             </div>
-                            <div className=" bg-[var(--secondary)] w-52 rounded-lg m-2 mb-3 ">
+                            <div className=" bg-[var(--secondary)] rounded-lg m-3">
                                 <a href={card.link}>
                                     <img
-                                        className="rounded-lg"
+                                        className="rounded-lg h-28"
                                         src={card.label}
-                                        alt="project preview"
+                                        alt="Project preview"
                                     />
                                 </a>
                             </div>
-                            <div className=" bg-[var(--secondary)] w-52 h-screen mb-3 rounded-lg">
+                            <div className=" bg-[var(--secondary)] w-44 h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
                                 {card.content}
                             </div>
                         </div>
