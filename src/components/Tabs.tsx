@@ -1,18 +1,18 @@
 import { useState } from "react";
 import Skills from "./Skills";
-import Work from "./Work";
 import About from "./About";
 import Contact from "./Contact";
 import AboutTitle from "./Titles/AboutTitle";
 import ContactTitle from "./Titles/ContactTitle";
 import SkillsTitle from "./Titles/SkillsTitle";
 import WorkTitle from "./Titles/WorkTitle";
+import Cards from "./Cards";
 
 export default function Tabs() {
     const tabsData = [
         {
             label: <WorkTitle />,
-            content: <Work />,
+            content: <Cards />,
         },
         {
             label: <SkillsTitle />,

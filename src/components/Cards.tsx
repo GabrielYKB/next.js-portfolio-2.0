@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Cards() {
     return (
-        <div className="">
+        <div className="h-96">
             <Card />
         </div>
     );
