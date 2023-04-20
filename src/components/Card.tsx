@@ -20,22 +20,36 @@ export default function Card() {
             repo: "https://github.com/GabrielYKB/kanban-board",
         },
         {
-            label: "img2",
-            content: "Slack Clone",
-            link: "https://kaleidoscopic-puffpuff-d3ffcd.netlify.app",
+            label: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/644144dffc3a3139275aa1cd/screenshot_2023-04-20-13-57-54-0000.png",
+            content: (
+                <div>
+                    <h2 className="border-b-2 justify-center mx-5 pb-1 text-lg font-medium">
+                        Slack Clone
+                    </h2>
+                    <p className="text-sm py-2 font-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore, vero.
+                    </p>
+                </div>
+            ),
+            link: "https://scintillating-donut-7163c5.netlify.app",
             repo: "https://github.com/GabrielYKB/Slack-clone",
         },
         {
             label: "img3",
-            content: "Spotify Clone",
+            content: (
+                <div>
+                    <h2 className="border-b-2 justify-center mx-5 pb-1 text-lg font-medium">
+                        Spotify Clone
+                    </h2>
+                    <p className="text-sm py-2 font-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore, vero.
+                    </p>
+                </div>
+            ),
             link: "",
             repo: "https://github.com/GabrielYKB/spotify-clone",
-        },
-        {
-            label: "img4",
-            content: "description4",
-            link: "",
-            repo: "",
         },
     ];
 
