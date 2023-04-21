@@ -51,6 +51,22 @@ export default function Card() {
             link: "",
             repo: "https://github.com/GabrielYKB/spotify-clone",
         },
+        {
+            label: "img3",
+            content: (
+                <div>
+                    <h2 className="border-b-2 border-[var(--detail)] justify-center mx-5 pb-1 text-lg font-medium">
+                        Klarna Checkout
+                    </h2>
+                    <p className="text-sm py-2 font-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore, vero.
+                    </p>
+                </div>
+            ),
+            link: "",
+            repo: "https://github.com/GabrielYKB/Klarna-Checkout",
+        },
     ];
 
     return (
@@ -59,9 +75,12 @@ export default function Card() {
                 return (
                     <Tilt>
                         <div className="h-80 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col">
-                            <div className="h-8 w-8 bg-white fixed right-1 top-1 rounded-full">
+                            <div className=" fixed right-1 hover:scale-125 top-1 transition duration-300 hover:duration-300 rounded-full">
                                 <a href={card.repo}>
-                                    <img src="github-mark.svg" />
+                                    <img
+                                        src="github-mark-white.svg"
+                                        className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300"
+                                    />
                                 </a>
                             </div>
                             <a href={card.link}>

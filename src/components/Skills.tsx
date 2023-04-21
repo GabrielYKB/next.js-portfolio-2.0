@@ -38,7 +38,7 @@ export default function Skills() {
 
     return (
         <div className="flex justify-evenly h-96">
-            {skillsData.map((skill, dsc) => {
+            {skillsData.map((skill) => {
                 return (
                     <div className="flex flex-col items-center text-center">
                         <div>
