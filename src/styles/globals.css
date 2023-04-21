@@ -5,7 +5,8 @@
 :root {
     --bg: #212121;
     --primary: #323232;
-    --secondary: #636363;
+    --secondary: #414040;
+    --detail: #323;
 }
 .Typewriter__cursor {
     visibility: hidden;

@@ -33,14 +33,14 @@ export default function Tabs() {
     return (
         <div className=" bg-[var(--bg)]  ">
             <div className="mx-72 text-white text-2xl ">
-                <div className="border-b-4 border-violet-500 flex justify-center mb-16">
+                <div className="border-b-4 border-[var(--detail)] flex justify-center mb-16">
                     {tabsData.map((tab, idx) => {
                         return (
                             <button
                                 key={idx}
                                 className={`py-2 transition-colors duration-300 ${
                                     idx === activeTabIndex
-                                        ? "bg-violet-500 rounded-t-xl px-8"
+                                        ? "bg-[var(--detail)] rounded-t-xl px-8"
                                         : "bg-transparent rounded-t-xl px-8 hover:border-white"
                                 }`}
                                 onClick={() => setActiveTabIndex(idx)}
