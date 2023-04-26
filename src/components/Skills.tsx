@@ -38,16 +38,16 @@ export default function Skills() {
 
     return (
         <div className="h-96">
-            <div className="flex justify-evenly ">
+            <div className="flex justify-evenly">
                 {skillsData.map((skill) => {
                     return (
-                        <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center ">
+                        <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center">
                             <div className="w-52 flex pb-1 justify-center mb-2">
-                                <div className="border-b-2 w-36 border-[var(--detail)] text-xl font-medium">
+                                <div className="border-b-2 w-36 border-[var(--detail)] text-xl font-semibold">
                                     <h3>{skill.headline}</h3>
                                 </div>
                             </div>
-                            <div className="mb-4 text-lg font-light">
+                            <div className="mb-4 text-lg font-normal">
                                 {skill.content}
                             </div>
                         </div>
