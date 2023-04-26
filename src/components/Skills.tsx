@@ -42,12 +42,12 @@ export default function Skills() {
                 {skillsData.map((skill) => {
                     return (
                         <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center ">
-                            <div>
-                                <div className="w-64 flex pb-1 justify-center mb-2">
-                                    <div className="border-b-2 w-36 border-[var(--detail)]">
-                                        <h3>{skill.headline}</h3>
-                                    </div>
+                            <div className="w-52 flex pb-1 justify-center mb-2">
+                                <div className="border-b-2 w-36 border-[var(--detail)] text-xl font-medium">
+                                    <h3>{skill.headline}</h3>
                                 </div>
+                            </div>
+                            <div className="mb-4 text-lg font-light">
                                 {skill.content}
                             </div>
                         </div>
