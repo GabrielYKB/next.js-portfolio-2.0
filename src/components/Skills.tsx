@@ -37,19 +37,23 @@ export default function Skills() {
     ];
 
     return (
-        <div className="flex justify-evenly h-96">
-            {skillsData.map((skill) => {
-                return (
-                    <div className="flex flex-col items-center text-center">
-                        <div>
-                            <div className="border-b-2 border-[var(--detail)] w-64 flex pb-1 justify-center mb-2">
-                                <h3>{skill.headline}</h3>
+        <div className="h-96">
+            <div className="flex justify-evenly ">
+                {skillsData.map((skill) => {
+                    return (
+                        <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center ">
+                            <div>
+                                <div className="w-64 flex pb-1 justify-center mb-2">
+                                    <div className="border-b-2 w-36 border-[var(--detail)]">
+                                        <h3>{skill.headline}</h3>
+                                    </div>
+                                </div>
+                                {skill.content}
                             </div>
-                            {skill.content}
                         </div>
-                    </div>
-                );
-            })}
+                    );
+                })}
+            </div>
         </div>
     );
 }
