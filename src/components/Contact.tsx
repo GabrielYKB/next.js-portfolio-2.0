@@ -45,14 +45,18 @@ export default function Contact() {
             <div>
                 Social profiles:
                 <div className="flex gap-5 ">
-                    <img
-                        src="linkedin.svg"
-                        className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300 hover:scale-125 "
-                    />
-                    <img
-                        src="github-mark-white.svg"
-                        className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300 hover:scale-125 "
-                    />
+                    <a href="https://www.linkedin.com/in/gabriel-yakoub-65ab74185/">
+                        <img
+                            src="linkedin.svg"
+                            className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300 hover:scale-125 "
+                        />
+                    </a>
+                    <a href="https://github.com/GabrielYKB">
+                        <img
+                            src="github-mark-white.svg"
+                            className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300 hover:scale-125 "
+                        />
+                    </a>
                 </div>
             </div>
         </div>
