@@ -9,6 +9,11 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        container: {
+            center: true,
+            padding: "12rem",
+        },
+
         extend: {
             boxShadow: {
                 offset: "20px -20px rgb(139,92,246)",
