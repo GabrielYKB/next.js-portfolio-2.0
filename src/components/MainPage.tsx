@@ -6,7 +6,7 @@ import Tabs from "./Tabs";
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-screen">
-            <div className="justify-between flex mx-56 p-28">
+            <div className="justify-between flex mx-auto container py-28">
                 <div className="py-20">
                     <Intro />
                 </div>

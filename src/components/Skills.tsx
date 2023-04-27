@@ -31,6 +31,8 @@ export default function Skills() {
                 <div>
                     <p>Git/Github</p>
                     <p>NPM</p>
+                    <p>ChatGPT</p>
+                    <p>Trello</p>
                 </div>
             ),
         },
