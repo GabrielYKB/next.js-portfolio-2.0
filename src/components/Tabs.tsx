@@ -32,7 +32,7 @@ export default function Tabs() {
 
     return (
         <div className=" bg-[var(--bg)]  ">
-            <div className="mx-auto container text-white text-2xl ">
+            <div className="mx-auto  text-white text-2xl ">
                 <div className="border-b-4 border-[var(--detail)] flex justify-center mb-16">
                     {tabsData.map((tab, idx) => {
                         return (

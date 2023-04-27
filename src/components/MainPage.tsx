@@ -5,9 +5,9 @@ import Tabs from "./Tabs";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen ">
+        <div className="bg-[var(--bg)] h-full ">
             <div className="mx-auto container">
-                <div className="justify-between flex  py-28">
+                <div className="justify-between flex py-28">
                     <div className="py-20">
                         <Intro />
                     </div>
