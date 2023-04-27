@@ -5,16 +5,18 @@ import Tabs from "./Tabs";
 
 export default function MainPage() {
     return (
-        <div className="bg-[var(--bg)] h-screen">
-            <div className="justify-between flex mx-auto container py-28">
-                <div className="py-20">
-                    <Intro />
+        <div className="bg-[var(--bg)] h-screen ">
+            <div className="mx-auto container">
+                <div className="justify-between flex  py-28">
+                    <div className="py-20">
+                        <Intro />
+                    </div>
+                    <div>
+                        <Hero />
+                    </div>
                 </div>
-                <div>
-                    <Hero />
-                </div>
+                <Tabs />
             </div>
-            <Tabs />
         </div>
     );
 }

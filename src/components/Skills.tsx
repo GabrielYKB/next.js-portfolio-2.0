@@ -40,7 +40,7 @@ export default function Skills() {
 
     return (
         <div className="h-96">
-            <div className="flex justify-evenly">
+            <div className="flex justify-between">
                 {skillsData.map((skill) => {
                     return (
                         <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center">

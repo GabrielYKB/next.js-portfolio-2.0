@@ -70,7 +70,7 @@ export default function Card() {
     ];
 
     return (
-        <div className="flex space-x-20 justify-center">
+        <div className="flex justify-between">
             {cardsData.map((card, dsc) => {
                 return (
                     <Tilt>

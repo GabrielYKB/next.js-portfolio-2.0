@@ -11,7 +11,7 @@ const Email = () => {
 
 export default function Contact() {
     return (
-        <div className="flex justify-around h-96">
+        <div className="flex justify-between h-96">
             <div>
                 <p>Contact information:</p>
                 <div className="flex items-center gap-2">
