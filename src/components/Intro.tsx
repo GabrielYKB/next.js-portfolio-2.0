@@ -3,9 +3,11 @@ import Typewriter from "typewriter-effect";
 
 export default function Intro() {
     return (
-        <div className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-l from-[var(--detail)] to-purple-700 max-w-xl">
-            Hello!
-            <div className="text-white font-bold">
+        <div className="p-6 bg-[var(--secondary)] rounded-lg">
+            <div className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-l from-[var(--detail)] to-purple-700 max-w-xl">
+                Hello!
+            </div>
+            <div className="text-white text-2xl font-bold">
                 <div className="py-4">
                     <Typewriter
                         onInit={(typewriter) => {

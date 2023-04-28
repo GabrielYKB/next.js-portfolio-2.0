@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "./Intro";
 import Hero from "./Hero";
 import Tabs from "./Tabs";
+import Cards from "./Cards";
 
 export default function MainPage() {
     return (
@@ -16,6 +17,7 @@ export default function MainPage() {
                     </div>
                 </div>
                 <Tabs />
+                <Cards />
             </div>
         </div>
     );

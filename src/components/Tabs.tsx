@@ -11,10 +11,6 @@ import Cards from "./Cards";
 export default function Tabs() {
     const tabsData = [
         {
-            label: <WorkTitle />,
-            content: <Cards />,
-        },
-        {
             label: <SkillsTitle />,
             content: <Skills />,
         },
