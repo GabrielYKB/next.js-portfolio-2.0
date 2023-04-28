@@ -36,7 +36,7 @@ export default function Card() {
             repo: "https://github.com/GabrielYKB/Slack-clone",
         },
         {
-            label: "img3",
+            label: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64428c916669c971a1947961/screenshot_2023-04-21-13-16-26-0000.png",
             content: (
                 <div>
                     <h2 className="border-b-2 border-[var(--detail)] justify-center mx-5 pb-1 text-lg font-medium">
@@ -52,7 +52,7 @@ export default function Card() {
             repo: "https://github.com/GabrielYKB/spotify-clone",
         },
         {
-            label: "img3",
+            label: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64428c916669c971a1947961/screenshot_2023-04-21-13-16-26-0000.png",
             content: (
                 <div>
                     <h2 className="border-b-2 border-[var(--detail)] justify-center mx-5 pb-1 text-lg font-medium">
@@ -74,24 +74,24 @@ export default function Card() {
             {cardsData.map((card, dsc) => {
                 return (
                     <Tilt>
-                        <div className="h-80 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col">
-                            <div className=" fixed right-1 hover:scale-125 top-1 transition duration-300 hover:duration-300 rounded-full">
-                                <a href={card.repo}>
-                                    <img
-                                        src="github-mark-white.svg"
-                                        className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300"
-                                    />
-                                </a>
-                            </div>
+                        <div className="h-96 w-56 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col mb-5">
                             <a href={card.link}>
                                 <img
-                                    className="rounded-lg m-3 h-28"
+                                    className="rounded-lg m-3 w-48"
                                     src={card.label}
                                     alt="Project preview"
                                 />
                             </a>
-                            <div className=" bg-[var(--secondary)] w-44 h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
+                            <div className=" bg-[var(--secondary)] w-48  h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
                                 {card.content}
+                                <div className=" fixed right-24 bottom-10 hover:scale-125 transition duration-300 hover:duration-300 rounded-full">
+                                    <a href={card.repo}>
+                                        <img
+                                            src="github-mark-white.svg"
+                                            className="h-8 bg-[var(--bg)] rounded-full hover:bg-[var(--detail)] transition duration-300 hover:duration-300"
+                                        />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </Tilt>
