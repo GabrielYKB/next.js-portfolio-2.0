@@ -75,16 +75,24 @@ export default function Card() {
                 return (
                     <Tilt>
                         <div className="h-96 w-56 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col mb-5">
-                            <a href={card.link}>
+                            {card.link ? (
+                                <a href={card.link}>
+                                    <img
+                                        className="rounded-lg m-3 w-48"
+                                        src={card.label}
+                                        alt="Project preview"
+                                    />
+                                </a>
+                            ) : (
                                 <img
                                     className="rounded-lg m-3 w-48"
                                     src={card.label}
                                     alt="Project preview"
                                 />
-                            </a>
+                            )}
                             <div className=" bg-[var(--secondary)] w-48  h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
                                 {card.content}
-                                <div className=" fixed right-24 bottom-10 hover:scale-125 transition duration-300 hover:duration-300 rounded-full">
+                                <div className="fixed right-24 bottom-10 hover:scale-125 transition duration-300 hover:duration-300 rounded-full">
                                     <a href={card.repo}>
                                         <img
                                             src="github-mark-white.svg"
