@@ -12,9 +12,9 @@ const Email = () => {
 export default function Contact() {
     return (
         <div className="flex justify-between h-96">
-            <div>
+            <div className="text-2xl font-medium">
                 <p>Contact information:</p>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 text-xl font-normal">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -26,7 +26,7 @@ export default function Contact() {
                     </svg>
                     <Email />
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 text-xl font-normal">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -43,7 +43,10 @@ export default function Contact() {
                 </div>
             </div>
             <div>
-                Social profiles:
+                <div className="pb-2 text-2xl font-medium">
+                    <p>Social profiles:</p>
+                </div>
+
                 <div className="flex gap-5 ">
                     <a href="https://www.linkedin.com/in/gabriel-yakoub-65ab74185/">
                         <img
