@@ -3,6 +3,7 @@ import React from "react";
 export default function Skills() {
     const skillsData = [
         {
+            id: 1,
             headline: "Frontend",
             content: (
                 <div>
@@ -15,6 +16,7 @@ export default function Skills() {
             ),
         },
         {
+            id: 2,
             headline: "Backend",
             content: (
                 <div>
@@ -26,6 +28,7 @@ export default function Skills() {
             ),
         },
         {
+            id: 3,
             headline: "Other",
             content: (
                 <div>
@@ -43,7 +46,10 @@ export default function Skills() {
             <div className="flex justify-between">
                 {skillsData.map((skill) => {
                     return (
-                        <div className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center">
+                        <div
+                            key={skill.id}
+                            className="flex flex-col items-center bg-[var(--secondary)] rounded-lg pt-4 text-center"
+                        >
                             <div className="w-52 flex pb-1 justify-center mb-2">
                                 <div className="border-b-2 w-36 border-[var(--detail)] text-xl font-semibold">
                                     <h3>{skill.headline}</h3>

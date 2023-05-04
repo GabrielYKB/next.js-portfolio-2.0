@@ -18,7 +18,7 @@ export default function About() {
                     the technical aspects of it. For me, coding is a form of
                     self-expression, a way to turn my ideas into reality, and a
                     means to create something meaningful that has a positive
-                    impact on the world. I take pride in my work and I'm
+                    impact on the world. I take pride in my work and I&apos;m
                     constantly pushing myself to learn and grow, staying
                     up-to-date with the latest trends and best practices in the
                     industry.
