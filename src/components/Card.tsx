@@ -97,7 +97,7 @@ export default function Card() {
                                 )}
                                 <div className=" bg-[var(--secondary)] w-48  h-screen rounded-lg mb-3 text-center pt-3 text-xl text-gray-200 ">
                                     {card.content}
-                                    <div className="fixed right-24 bottom-10 hover:scale-125 transition duration-300 hover:duration-300 rounded-full">
+                                    <div className="fixed right-24 bottom-6 hover:scale-125 transition duration-300 hover:duration-300 rounded-full">
                                         <a href={card.repo}>
                                             <img
                                                 src="github-mark-white.svg"
