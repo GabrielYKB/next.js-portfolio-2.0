@@ -18,7 +18,7 @@ export default function ProjectCard({
     link,
 }: Props) {
     return (
-        <div className="flex">
+        <div className="flex" id="cards">
             <div>IMG</div>
             <div className="flex flex-col">
                 <p>title</p>

@@ -19,13 +19,10 @@ export default function MainPage() {
                     <div className="py-20">
                         <Intro />
                     </div>
-                    <div>
-                        <Hero />
-                    </div>
                 </div>
                 <About />
                 <Skills />
-                <Cards />
+                <Projects />
                 <Contact />
             </div>
         </div>

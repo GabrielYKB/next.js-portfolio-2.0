@@ -1,13 +1,14 @@
 import React from "react";
+import Hero from "./Hero";
 
 export default function About() {
     return (
-        <div id="about" className="h-96 text-white mb-16">
-            <div className="flex mb-16 text-2xl font-semibold text-white">
+        <div id="about" className=" text-white mb-16">
+            <div className="mb-16 text-2xl font-semibold text-white">
                 <h3>About me </h3>
             </div>
-            <div className=" flex bg-[var(--secondary)] rounded-lg text-center pt-3 text-lg p-4 font-light text-gray-200">
-                <p>
+            <div className="flex  justify-between items-center">
+                <p className="bg-[var(--secondary)] rounded-lg text-center text-lg p-4 font-light text-gray-200 w-128">
                     As a junior software developer with a diverse set of skills
                     ranging from frontend technologies like React, Javascript,
                     Typescript, and Tailwind CSS to backend technologies like
@@ -26,6 +27,7 @@ export default function About() {
                     up-to-date with the latest trends and best practices in the
                     industry.
                 </p>
+                <Hero />
             </div>
         </div>
     );
