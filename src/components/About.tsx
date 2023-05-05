@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div id="about" className="h-96 text-white mb-16">
             <div className="flex mb-16 text-2xl font-semibold text-white">
-                <h3>1. About me </h3>
+                <h3>About me </h3>
             </div>
             <div className=" flex bg-[var(--secondary)] rounded-lg text-center pt-3 text-lg p-4 font-light text-gray-200">
                 <p>

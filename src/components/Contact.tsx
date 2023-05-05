@@ -14,7 +14,7 @@ export default function Contact() {
         <div id="contact" className="h-96 text-white">
             <div className="text-2xl font-medium ">
                 <div className="flex mb-16 text-2xl font-semibold text-white min-w-full">
-                    <h3>4. Contact information</h3>
+                    <h3>Contact information</h3>
                 </div>
                 <div className="flex justify-between">
                     <div className="flex items-center gap-2 text-xl font-normal">

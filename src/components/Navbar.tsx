@@ -11,7 +11,7 @@ export default function Navbar() {
                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     offset={-200}
                 >
-                    1. About
+                    About
                 </Link>
                 <Link
                     to="skills"
@@ -20,7 +20,7 @@ export default function Navbar() {
                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     offset={-200}
                 >
-                    2. Skills
+                    Skills
                 </Link>
                 <Link
                     to="cards"
@@ -29,7 +29,7 @@ export default function Navbar() {
                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     offset={-200}
                 >
-                    3. Work
+                    Work
                 </Link>
 
                 <Link
@@ -39,7 +39,7 @@ export default function Navbar() {
                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     offset={-200}
                 >
-                    4. Contact
+                    Contact
                 </Link>
             </div>
         </nav>
