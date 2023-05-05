@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="flex justify-end m-5">
             <div className="flex justify-center h-16 fixed">
                 <Link
                     to="about"

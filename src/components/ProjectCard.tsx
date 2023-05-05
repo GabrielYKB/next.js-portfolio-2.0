@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 type Props = {
     skills: Array<string>;
@@ -18,11 +19,13 @@ export default function ProjectCard({
     link,
 }: Props) {
     return (
-        <div className="flex" id="cards">
-            <div>IMG</div>
-            <div className="flex flex-col">
-                <p>title</p>
-                <div>
+        <div className="flex text-white" id="cards">
+            <div>
+                <img src={image} alt="Project preview" />
+            </div>
+            <div className="flex flex-col items-end">
+                <p className="font-bold">{title}</p>
+                <div className="bg-[var(--secondary)] rounded-lg p-3">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Accusantium doloribus perferendis culpa alias obcaecati
                     veniam ex laborum vel, modi quidem consequatur libero
@@ -31,7 +34,7 @@ export default function ProjectCard({
                     inventore maiores? Ex distinctio, tempore animi nam velit
                     nobis neque at iusto? Ipsa, soluta adipisci.
                 </div>
-                <div>
+                <div className="flex gap-5 text-gray-300">
                     {skills.map((skill) => (
                         <p>{skill}</p>
                     ))}
