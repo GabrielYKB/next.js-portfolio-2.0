@@ -42,7 +42,8 @@ export default function Skills() {
     ];
 
     return (
-        <div id="skills" className="h-96">
+        <div id="skills" className="h-96 text-white">
+            <p>My Skills</p>
             <div className="flex justify-between">
                 {skillsData.map((skill) => {
                     return (
