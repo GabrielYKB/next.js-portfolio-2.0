@@ -13,7 +13,9 @@ export default function Contact() {
     return (
         <div id="contact" className="flex justify-between h-96 text-white">
             <div className="text-2xl font-medium">
-                <p>Contact information:</p>
+                <div className="flex mb-16 text-2xl font-semibold text-white">
+                    <h3>4. Contact information</h3>
+                </div>
                 <div className="flex items-center gap-2 text-xl font-normal">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
