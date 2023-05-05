@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Intro() {
     return (
         <div
+            id="home"
             className="p-6 bg-[var(--secondary)] rounded-3xl h-screen"
             style={{ width: 700 }}
         >
