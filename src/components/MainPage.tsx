@@ -4,6 +4,9 @@ import Hero from "./Hero";
 import Tabs from "./Tabs";
 import Cards from "./Cards";
 import Navbar from "./Navbar";
+import About from "./About";
+import Contact from "./Contact";
+import Skills from "./Skills";
 
 export default function MainPage() {
     return (
@@ -18,7 +21,10 @@ export default function MainPage() {
                         <Hero />
                     </div>
                 </div>
+                <About />
+                <Skills />
                 <Cards />
+                <Contact />
             </div>
         </div>
     );

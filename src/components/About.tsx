@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="h-96 ">
+        <div id="about" className="h-96 ">
             <div className=" flex justify-between bg-[var(--secondary)] rounded-lg text-center pt-3 text-lg p-4 font-light text-gray-200">
                 <p>
                     As a junior software developer with a diverse set of skills
