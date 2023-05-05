@@ -15,8 +15,8 @@ module.exports = {
         },
 
         extend: {
-            boxShadow: {
-                offset: "20px -20px rgb(139,92,246)",
+            height: {
+                128: "32rem",
             },
         },
     },

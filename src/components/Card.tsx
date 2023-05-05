@@ -79,7 +79,7 @@ export default function Card() {
                 return (
                     <div key={card.id}>
                         <Tilt>
-                            <div className="h-96 w-56 bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col mb-5">
+                            <div className="h-96 w- bg-[var(--primary)] flex rounded-lg items-center justify-start flex-col mb-5">
                                 {card.link ? (
                                     <a href={card.link}>
                                         <img

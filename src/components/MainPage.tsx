@@ -6,12 +6,15 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-full ">
-            <div className="mx-auto container">
+            <div>
                 <Navbar />
+            </div>
+            <div className="mx-auto container">
                 <div className="justify-between flex py-28">
                     <div className="py-20">
                         <Intro />
