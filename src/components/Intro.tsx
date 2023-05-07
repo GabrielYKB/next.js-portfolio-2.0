@@ -3,13 +3,13 @@ import Typewriter from "typewriter-effect";
 
 export default function Intro() {
     return (
-        <div className="h-screen">
+        <div className="h-screen mt-10">
             <div
                 id="home"
-                className="p-6 pb-10 bg-[var(--secondary)] rounded-3xl"
+                className="p-6 bg-[var(--secondary)] rounded-3xl"
                 style={{ width: 1000 }}
             >
-                <div className="font-black text-transparent text-7xl bg-clip-text bg-gradient-to-l from-[var(--detail)] to-white max-w-xl">
+                <div className="font-black text-transparent text-7xl bg-clip-text bg-gradient-to-tl from-red-500 to-[var(--detail)] max-w-xl">
                     Hello!
                 </div>
                 <div className="text-white text-4xl font-medium">
@@ -19,7 +19,7 @@ export default function Intro() {
                                 typewriter
                                     .changeDelay(55)
                                     .typeString(
-                                        "My name is Gabriel and I'm a Junior software developer. "
+                                        "My name is Gabriel Yakoub and I'm a Junior software developer. "
                                     )
                                     .start();
                             }}
