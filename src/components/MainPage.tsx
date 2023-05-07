@@ -18,6 +18,9 @@ export default function MainPage() {
                 </div>
                 <About />
                 <Skills />
+                <div className="mb-16 text-2xl font-semibold text-white">
+                    <h3>My Projects </h3>
+                </div>
                 <Projects />
                 <Contact />
             </div>
