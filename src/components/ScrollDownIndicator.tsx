@@ -47,7 +47,7 @@ const ScrollDownIndicator: React.FC = () => {
                         d="M10 14a1 1 0 01-.71-.29l-3.5-3.5a1 1 0 011.42-1.42L10 11.59l3.29-3.3a1 1 0 011.42 1.42l-3.5 3.5A1 1 0 0110 14z"
                         clipRule="evenodd"
                     />
-                </svg>{" "}
+                </svg>
             </Link>
         </div>
     );

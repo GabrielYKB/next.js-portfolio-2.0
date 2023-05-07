@@ -13,7 +13,7 @@ export default function MainPage() {
                 <Navbar />
             </div>
             <div className="mx-auto container">
-                <div className="justify-between flex pt-20">
+                <div className="">
                     <Intro />
                 </div>
                 <About />
