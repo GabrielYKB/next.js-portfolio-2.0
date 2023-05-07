@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import ScrollDownIndicator from "./ScrollDownIndicator";
 
 export default function Intro() {
     return (
@@ -36,6 +37,7 @@ export default function Intro() {
                     />
                 </div>
             </div>
+            <ScrollDownIndicator />
         </div>
     );
 }
