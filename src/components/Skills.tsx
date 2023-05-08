@@ -42,7 +42,7 @@ export default function Skills() {
     ];
 
     return (
-        <div id="skills" className="h-96 text-white mb-16">
+        <div id="skills" className="h-96 text-white mb-16" data-aos="fade-up">
             <div className="flex mb-16 text-2xl font-semibold text-white">
                 <h3>My skills </h3>
             </div>

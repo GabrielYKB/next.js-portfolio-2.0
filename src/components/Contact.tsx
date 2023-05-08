@@ -11,7 +11,7 @@ const Email = () => {
 
 export default function Contact() {
     return (
-        <div id="contact" className="h-96 text-white">
+        <div id="contact" className="h-96 text-white" data-aos="fade-up">
             <div className="text-2xl font-medium ">
                 <div className="flex mb-16 text-2xl font-semibold text-white min-w-full">
                     <h3>Contact information</h3>

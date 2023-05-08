@@ -4,7 +4,7 @@ import ScrollDownIndicator from "./ScrollDownIndicator";
 
 export default function Intro() {
     return (
-        <div className="h-screen flex items-center">
+        <div className="h-screen flex items-center" data-aos="fade-up">
             <div
                 id="home"
                 className="p-6 bg-[var(--secondary)] rounded-3xl -mt-28"

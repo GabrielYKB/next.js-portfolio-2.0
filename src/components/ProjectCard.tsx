@@ -19,7 +19,11 @@ export default function ProjectCard({
     link,
 }: Props) {
     return (
-        <div className="flex text-white items-center" id="cards">
+        <div
+            className="flex text-white items-center"
+            id="cards"
+            data-aos="fade-up"
+        >
             <div>
                 <img src={image} alt="Project preview" className="h-96" />
             </div>
