@@ -9,7 +9,7 @@ export default function Navbar() {
                     smooth={true}
                     duration={500}
                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    offset={-100}
+                    offset={-300}
                 >
                     Home
                 </Link>
