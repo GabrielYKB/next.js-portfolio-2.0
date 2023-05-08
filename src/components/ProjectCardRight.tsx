@@ -10,7 +10,7 @@ type Props = {
     link: string;
 };
 
-export default function ProjectCard({
+export default function ProjectCardRight({
     skills,
     desc,
     title,
@@ -25,18 +25,11 @@ export default function ProjectCard({
             id="cards"
             data-aos="fade-up"
         >
-            <div>
-                <img
-                    src={image}
-                    alt="Project preview"
-                    className="aspect-video rounded-md"
-                />
-            </div>
-            <div className="flex flex-col items-end max-w-xl">
+            <div className="flex flex-col items-start max-w-xl">
                 <p className="font-bold text-2xl mb-4">{title}</p>
                 <div
-                    className="bg-[var(--secondary)] rounded-md p-5 px-6 text-right"
-                    style={style}
+                    className="bg-[var(--secondary)] rounded-md p-5 px-6 "
+                    // style={style}
                 >
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Accusantium doloribus perferendis culpa alias obcaecati
@@ -78,6 +71,13 @@ export default function ProjectCard({
                         </a>
                     )}
                 </div>
+            </div>
+            <div>
+                <img
+                    src={image}
+                    alt="Project preview"
+                    className="aspect-video rounded-md"
+                />
             </div>
         </div>
     );

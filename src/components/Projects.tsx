@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import ProjectCardRight from "./ProjectCardRight";
 
 type Props = {};
 const PROJECTS = [
@@ -39,7 +40,13 @@ const PROJECTS = [
 
 export default function Projects({}: Props) {
     const renderProjects = () => {
-        return PROJECTS.map((project) => <ProjectCard {...project} />);
+        return PROJECTS.map((project, index) =>
+            index % 2 === 0 ? (
+                <ProjectCard {...project} />
+            ) : (
+                <ProjectCardRight {...project} />
+            )
+        );
     };
     return <div className="flex flex-col gap-10">{renderProjects()}</div>;
 }

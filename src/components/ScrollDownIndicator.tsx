@@ -34,7 +34,7 @@ const ScrollDownIndicator: React.FC = () => {
                         smooth={true}
                         duration={500}
                         className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                        offset={-100}
+                        offset={-200}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
