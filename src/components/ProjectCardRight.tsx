@@ -28,8 +28,8 @@ export default function ProjectCardRight({
             <div className="flex flex-col items-start max-w-xl">
                 <p className="font-bold text-2xl mb-4">{title}</p>
                 <div
-                    className="bg-[var(--secondary)] rounded-md p-5 px-6 "
-                    // style={style}
+                    className="bg-[var(--secondary)] rounded-md p-5 px-6 z-10"
+                    style={style}
                 >
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Accusantium doloribus perferendis culpa alias obcaecati
