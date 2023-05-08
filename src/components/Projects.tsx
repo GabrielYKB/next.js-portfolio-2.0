@@ -9,23 +9,23 @@ const PROJECTS = [
         link: "https://chimera-ant.netlify.app/",
         title: "Kanban Board",
         desc: "This is a Klarna checkout",
-        skills: ["Node.js", "API", "Express"],
+        skills: ["React", "SCSS", "Typescript", "UUID"],
         repo: "https://github.com/GabrielYKB/Klarna-Checkout",
     },
     {
-        image: "Kanban.png",
+        image: "Spotify.png",
         link: "",
         title: "Spotify Clone",
         desc: "",
-        skills: ["Node.js", "API", "Express"],
+        skills: ["Spotify Web API", "TailwindCSS", "React", "Next.js"],
         repo: "https://github.com/GabrielYKB/Klarna-Checkout",
     },
     {
-        image: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64428c916669c971a1947961/screenshot_2023-04-21-13-16-26-0000.png",
+        image: "Klarna.png",
         link: "",
         title: "Klarna Checkout",
         desc: "",
-        skills: ["Node.js", "API", "Express"],
+        skills: ["Node.js", "API", "Express", "JavaScript"],
         repo: "https://github.com/GabrielYKB/Klarna-Checkout",
     },
     {
@@ -33,7 +33,7 @@ const PROJECTS = [
         link: "",
         title: "Slack Clone",
         desc: "",
-        skills: ["Node.js", "API", "Express"],
+        skills: ["React", "Express", "CORS", "Mongoose"],
         repo: "https://github.com/GabrielYKB/Klarna-Checkout",
     },
 ];
@@ -48,5 +48,5 @@ export default function Projects({}: Props) {
             )
         );
     };
-    return <div className="flex flex-col gap-10">{renderProjects()}</div>;
+    return <div className="flex flex-col gap-20">{renderProjects()}</div>;
 }
