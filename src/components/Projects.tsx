@@ -10,7 +10,7 @@ const PROJECTS = [
         title: "Kanban Board",
         desc: "This is a Klarna checkout",
         skills: ["React", "SCSS", "Typescript", "UUID"],
-        repo: "https://github.com/GabrielYKB/Klarna-Checkout",
+        repo: "https://github.com/GabrielYKB/kanban-board",
     },
     {
         image: "Spotify.png",
@@ -18,7 +18,7 @@ const PROJECTS = [
         title: "Spotify Clone",
         desc: "",
         skills: ["Spotify Web API", "TailwindCSS", "React", "Next.js"],
-        repo: "https://github.com/GabrielYKB/Klarna-Checkout",
+        repo: "https://github.com/GabrielYKB/spotify-clone",
     },
     {
         image: "Klarna.png",
@@ -34,7 +34,7 @@ const PROJECTS = [
         title: "Slack Clone",
         desc: "",
         skills: ["React", "Express", "CORS", "Mongoose"],
-        repo: "https://github.com/GabrielYKB/Klarna-Checkout",
+        repo: "https://github.com/GabrielYKB/Slack-clone",
     },
 ];
 
@@ -48,5 +48,5 @@ export default function Projects({}: Props) {
             )
         );
     };
-    return <div className="flex flex-col gap-20">{renderProjects()}</div>;
+    return <div className="flex flex-col gap-20 mb-36">{renderProjects()}</div>;
 }
