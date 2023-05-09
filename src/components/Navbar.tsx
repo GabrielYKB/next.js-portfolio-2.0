@@ -25,21 +25,13 @@ export default function Navbar() {
                     >
                         About
                     </Link>
-                    <Link
-                        to="skills"
-                        smooth={true}
-                        duration={500}
-                        className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                        offset={-200}
-                    >
-                        Skills
-                    </Link>
+
                     <Link
                         to="cards"
                         smooth={true}
                         duration={500}
                         className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                        offset={-50}
+                        offset={-120}
                     >
                         Work
                     </Link>
