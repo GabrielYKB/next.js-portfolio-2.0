@@ -7,7 +7,7 @@ export default function Intro() {
         <div className="h-screen flex items-center" data-aos="fade-up">
             <div
                 id="home"
-                className="p-6 bg-[var(--secondary)] rounded-3xl -mt-28"
+                className="p-6 bg-[var(--secondary)] rounded-3xl -mt-28 "
                 style={{ width: 1000 }}
             >
                 <div className="font-black text-transparent text-7xl bg-clip-text bg-gradient-to-tl from-red-500 to-[var(--detail)] max-w-xl">
@@ -37,7 +37,6 @@ export default function Intro() {
                     />
                 </div>
             </div>
-            <ScrollDownIndicator />
         </div>
     );
 }
