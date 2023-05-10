@@ -3,9 +3,9 @@ import Intro from "./Intro";
 import Navbar from "./Navbar";
 import About from "./About";
 import Contact from "./Contact";
-import Skills from "./Skills";
 import Projects from "./Projects";
 import ScrollDownIndicator from "./ScrollDownIndicator";
+import Image from "next/image";
 
 export default function MainPage() {
     return (
@@ -13,6 +13,35 @@ export default function MainPage() {
             <div>
                 <Navbar />
             </div>
+            <div className="flex fixed bottom-0 left-20 flex-col items-center gap-4">
+                <a href="https://github.com/GabrielYKB">
+                    <img
+                        src="github-mark-white.svg"
+                        className="w-7 transition duration-300 hover:duration-300 hover:scale-125"
+                        alt=""
+                    />
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-yakoub-65ab74185/">
+                    <img
+                        src="linkedin.svg"
+                        className="w-8 transition duration-300 hover:duration-300 hover:scale-125"
+                        alt=""
+                    />
+                </a>
+                <a href="https://twitter.com/gabrielykb">
+                    <img
+                        src="twitter.svg"
+                        className="w-8 transition duration-300 hover:duration-300 hover:scale-125"
+                        alt=""
+                    />
+                </a>
+                <div className="text-white  h-28 w-0.5 bg-red-500 " />
+            </div>
+
+            <div>
+                <div className="text-white fixed bottom-0 h-28 w-0.5 bg-red-500 right-20" />
+            </div>
+
             <div className="mx-auto container">
                 <div className="">
                     <Intro />
