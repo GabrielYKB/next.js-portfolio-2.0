@@ -13,7 +13,7 @@ export default function MainPage() {
             <div>
                 <Navbar />
             </div>
-            <div className="flex fixed bottom-0 left-20 flex-col items-center gap-4">
+            <div className="flex fixed bottom-0 left-12 flex-col items-center gap-4">
                 <a href="https://github.com/GabrielYKB">
                     <img
                         src="github-mark-white.svg"
@@ -35,11 +35,11 @@ export default function MainPage() {
                         alt=""
                     />
                 </a>
-                <div className="text-white  h-28 w-0.5 bg-red-500 " />
+                <div className="text-white h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
-            <div>
-                <div className="text-white fixed bottom-0 h-28 w-0.5 bg-red-500 right-20" />
+            <div className="fixed bottom-0 right-12 flex flex-col">
+                <div className="text-white  h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
             <div className="mx-auto container">
