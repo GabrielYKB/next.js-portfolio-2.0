@@ -6,13 +6,13 @@ export default function About() {
         <div id="about" className=" text-white mb-16" data-aos="fade-up">
             <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-5">
                 <h3 className="flex items-center gap-8">
-                    About me
+                    About Me
                     <div className="h-0.5 w-96 bg-[var(--detail)] relative top-1" />
                 </h3>
             </div>
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-between items-center">
                 <div className="">
-                    <p className="bg-[var(--secondary)] rounded-lg text-start text-lg p-5 font-light text-gray-200 mb-1 w-128">
+                    <p className="bg-[var(--secondary)] rounded-lg text-start text-lg p-5 font-light text-gray-200 mb-3 w-128">
                         As a junior software developer with a diverse set of
                         skills ranging from frontend technologies like React,
                         Javascript, Typescript, and Tailwind CSS to backend

@@ -6,8 +6,8 @@ export default function Hero() {
         <div className="">
             <Image
                 src="/kahp.jpg"
-                width={400}
-                height={600}
+                width={500}
+                height={700}
                 alt="Hero"
                 className="rounded-xl"
             />

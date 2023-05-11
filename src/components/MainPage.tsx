@@ -10,9 +10,6 @@ import Image from "next/image";
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-full ">
-            <div>
-                <Navbar />
-            </div>
             <div className="flex fixed bottom-0 left-12 flex-col items-center gap-4">
                 <a href="https://github.com/GabrielYKB">
                     <img
@@ -38,17 +35,20 @@ export default function MainPage() {
                 <div className="text-white h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
-            <div className="fixed bottom-0 right-12 flex flex-col">
-                <div className="text-white  h-28 w-0.5 bg-[var(--detail)] " />
+            <div className="flex fixed bottom-0 right-12 flex-col items-center gap-28 w-8">
+                <p className=" rotate-90 text-white hover:text-[var(--detail)] duration-100 hover:duration-100">
+                    Gabriel.yakooub@gmail.com
+                </p>
+                <div className=" h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
             <div className="mx-auto container">
+                <Navbar />
                 <div className="">
                     <Intro />
                     <ScrollDownIndicator />
                 </div>
                 <About />
-
                 <div className="mb-16 text-2xl font-semibold text-white ">
                     <h3 className="flex items-center gap-8">
                         My Projects
