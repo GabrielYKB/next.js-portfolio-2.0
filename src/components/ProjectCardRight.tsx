@@ -25,19 +25,13 @@ export default function ProjectCardRight({
             id="cards"
             data-aos="fade-up"
         >
-            <div className="flex flex-col items-start max-w-xl">
+            <div className="flex flex-col items-start min-w-xl max-w-xl">
                 <p className="font-bold text-2xl mb-4">{title}</p>
                 <div
-                    className="bg-[var(--secondary)] rounded-md p-5 px-6 z-10"
+                    className="bg-[var(--secondary)] rounded-md min-w-xl p-5 px-6 z-10"
                     style={style}
                 >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Accusantium doloribus perferendis culpa alias obcaecati
-                    veniam ex laborum vel, modi quidem consequatur libero
-                    voluptatem similique ducimus quisquam odit unde natus
-                    voluptatum repellendus illo quibusdam eveniet repellat
-                    inventore maiores? Ex distinctio, tempore animi nam velit
-                    nobis neque at iusto? Ipsa, soluta adipisci.
+                    {desc}
                 </div>
                 <div className="flex gap-5 text-gray-300 my-4">
                     {skills.map((skill) => (
