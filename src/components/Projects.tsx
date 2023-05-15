@@ -5,6 +5,7 @@ import ProjectCardRight from "./ProjectCardRight";
 type Props = {};
 const PROJECTS = [
     {
+        id: 1,
         image: "Kanban.png",
         link: "https://chimera-ant.netlify.app/",
         title: "Kanban Board",
@@ -13,6 +14,7 @@ const PROJECTS = [
         repo: "https://github.com/GabrielYKB/kanban-board",
     },
     {
+        id: 2,
         image: "Spotify.png",
         link: "",
         title: "Spotify Clone",
@@ -21,6 +23,7 @@ const PROJECTS = [
         repo: "https://github.com/GabrielYKB/spotify-clone",
     },
     {
+        id: 3,
         image: "Klarna.png",
         link: "",
         title: "Klarna Checkout",
@@ -29,6 +32,7 @@ const PROJECTS = [
         repo: "https://github.com/GabrielYKB/Klarna-Checkout",
     },
     {
+        id: 4,
         image: "Slack.png",
         link: "",
         title: "Slack Clone",
@@ -42,9 +46,9 @@ export default function Projects({}: Props) {
     const renderProjects = () => {
         return PROJECTS.map((project, index) =>
             index % 2 === 0 ? (
-                <ProjectCard {...project} />
+                <ProjectCard key={project.id} {...project} />
             ) : (
-                <ProjectCardRight {...project} />
+                <ProjectCardRight key={project.id} {...project} />
             )
         );
     };

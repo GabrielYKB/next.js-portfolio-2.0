@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Projects from "./Projects";
 
 type Props = {
     skills: Array<string>;
@@ -8,6 +9,7 @@ type Props = {
     image: string;
     repo: string;
     link: string;
+    id: number;
 };
 
 export default function ProjectCard({
@@ -17,6 +19,7 @@ export default function ProjectCard({
     image,
     repo,
     link,
+    id,
 }: Props) {
     const style = { width: "110%" };
     return (
@@ -24,6 +27,7 @@ export default function ProjectCard({
             className="flex text-white items-center"
             id="cards"
             data-aos="fade-up"
+            key={id}
         >
             <div>
                 <img
@@ -41,8 +45,8 @@ export default function ProjectCard({
                     {desc}
                 </div>
                 <div className="flex gap-5 text-gray-300 my-4">
-                    {skills.map((skill) => (
-                        <p>{skill}</p>
+                    {skills.map((skill, index) => (
+                        <p key={index}>{skill}</p>
                     ))}
                 </div>
                 <div className="flex gap-5 items-center">

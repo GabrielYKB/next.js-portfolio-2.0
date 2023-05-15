@@ -8,6 +8,7 @@ type Props = {
     image: string;
     repo: string;
     link: string;
+    id: number;
 };
 
 export default function ProjectCardRight({
@@ -17,6 +18,7 @@ export default function ProjectCardRight({
     image,
     repo,
     link,
+    id,
 }: Props) {
     const style = { width: "110%" };
     return (
@@ -24,6 +26,7 @@ export default function ProjectCardRight({
             className="flex text-white items-center"
             id="cards"
             data-aos="fade-up"
+            key={id}
         >
             <div className="flex flex-col items-start min-w-xl max-w-xl">
                 <p className="font-bold text-2xl mb-4">{title}</p>
@@ -34,8 +37,8 @@ export default function ProjectCardRight({
                     {desc}
                 </div>
                 <div className="flex gap-5 text-gray-300 my-4">
-                    {skills.map((skill) => (
-                        <p>{skill}</p>
+                    {skills.map((skill, index) => (
+                        <p key={index}>{skill}</p>
                     ))}
                 </div>
                 <div className="flex gap-5 items-center">
