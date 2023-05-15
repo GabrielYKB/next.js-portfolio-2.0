@@ -14,7 +14,7 @@ export default function Contact() {
         <div id="contact" className="h-96 text-white" data-aos="fade-up">
             <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-5">
                 <h3 className="flex items-center gap-8">
-                    Contact Information
+                    Contact
                     <div className="h-0.5 w-96 bg-[var(--detail)] relative top-1" />
                 </h3>
             </div>

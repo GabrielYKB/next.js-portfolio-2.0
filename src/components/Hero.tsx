@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="">
             <Image
-                src="/kahp.jpg"
+                src="/gabbelito.png"
                 width={500}
                 height={700}
                 alt="Hero"

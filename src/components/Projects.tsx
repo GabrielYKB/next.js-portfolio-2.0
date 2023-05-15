@@ -32,7 +32,7 @@ const PROJECTS = [
         image: "Slack.png",
         link: "",
         title: "Slack Clone",
-        desc: "My Slack clone is a team communication and collaboration application built using React, Express, CORS and Mongoose. It offers  features like chatrooms, sending and receiving messages.",
+        desc: "Your Slack clone is a chat application that allows users to send and receive messages in different chat rooms. Built with React, Node.js, and Express, it offers a user-friendly interface and real-time updates for effective communication and collaboration.",
         skills: ["React", "Express", "CORS", "Mongoose"],
         repo: "https://github.com/GabrielYKB/Slack-clone",
     },
