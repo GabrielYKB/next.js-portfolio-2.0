@@ -5,10 +5,12 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import ScrollDownIndicator from "./ScrollDownIndicator";
+import IndexPage from "./IndexPage";
 
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-full ">
+            <IndexPage />
             <div className="flex fixed bottom-0 lg:left-12 flex-col items-center gap-4 sm:left-4 invisible md:visible ">
                 <a href="https://github.com/GabrielYKB">
                     <img
