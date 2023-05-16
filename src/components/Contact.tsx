@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-5">
                 <h3 className="flex items-center gap-8">
                     Contact
-                    <div className="h-0.5 w-96 bg-[var(--detail)] relative top-1" />
+                    <div className="h-0.5 xl:w-96 sm:w-60 lg:w-80 bg-[var(--detail)] relative top-1" />
                 </h3>
             </div>
             <div className="flex-col justify-center bg-[var(--secondary)] rounded-md  p-4">
