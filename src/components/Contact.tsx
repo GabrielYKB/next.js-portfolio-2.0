@@ -12,11 +12,9 @@ const Email = () => {
 export default function Contact() {
     return (
         <div id="contact" className="h-96 text-white" data-aos="fade-up">
-            <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-5">
-                <h3 className="flex items-center gap-8">
-                    Contact
-                    <div className="h-0.5 xl:w-96 sm:w-60 lg:w-80 bg-[var(--detail)] relative top-1" />
-                </h3>
+            <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-6">
+                <h3 className="flex items-center ">Contact</h3>
+                <div className="h-0.5 xl:w-96 sm:w-60 lg:w-80 bg-[var(--detail)] relative top-1 w-48" />
             </div>
             <div className="flex-col justify-center bg-[var(--secondary)] rounded-md  p-4">
                 <div className="flex items-center gap-2 mb-2">
