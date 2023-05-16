@@ -5,12 +5,11 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import ScrollDownIndicator from "./ScrollDownIndicator";
-import Image from "next/image";
 
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-full ">
-            <div className="flex fixed bottom-0 left-12 flex-col items-center gap-4 md:left-4 ">
+            <div className="flex fixed bottom-0 lg:left-12 flex-col items-center gap-4 sm:left-4 ">
                 <a href="https://github.com/GabrielYKB">
                     <img
                         src="github-mark-white.svg"
@@ -34,7 +33,7 @@ export default function MainPage() {
                 </a>
                 <div className="text-white h-28 w-0.5 bg-[var(--detail)] " />
             </div>
-            <div className="flex fixed bottom-0 right-12 flex-col items-center gap-28 w-8 md:right-4">
+            <div className="flex fixed bottom-0 lg:right-12 flex-col items-center gap-28 w-8 sm:right-4">
                 <p className=" rotate-90 text-white hover:text-[var(--detail)] duration-150 hover:duration-150">
                     Gabriel.yakooub@gmail.com
                 </p>

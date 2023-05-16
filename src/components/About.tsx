@@ -7,12 +7,12 @@ export default function About() {
             <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-5">
                 <h3 className="flex items-center gap-8">
                     About Me
-                    <div className="h-0.5 w-60 bg-[var(--detail)] relative top-1" />
+                    <div className="h-0.5 xl:w-96 md:w-60 lg:w-80 bg-[var(--detail)] relative top-1" />
                 </h3>
             </div>
-            <div className="flex md:flex-col 2xl:flex-row md:gap-8 2xl:justify-between 2xl:items-center">
+            <div className="flex md:flex-col xl:flex-row md:gap-8 xl:gap-10 xl:justify-evenly xl:items-center">
                 <div className="">
-                    <p className="bg-[var(--secondary)] rounded-lg text-start text-lg p-5 font-light text-gray-200 mb-3 2xl:w-128">
+                    <p className="bg-[var(--secondary)] rounded-lg text-start text-lg p-5 font-light text-gray-200 mb-3 max-w-2xl">
                         As a junior software developer with a diverse set of
                         skills ranging from frontend technologies like React,
                         Javascript, Typescript, and Tailwind CSS to backend
@@ -47,7 +47,9 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <Hero />
+                <div className="hidden xl:block">
+                    <Hero />
+                </div>
             </div>
         </div>
     );
