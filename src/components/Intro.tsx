@@ -6,13 +6,13 @@ export default function Intro() {
         <div className="h-screen flex items-center" data-aos="fade-up">
             <div
                 id="home"
-                className="p-6 rounded-3xl -mt-28 "
+                className="p-6 rounded-3xl -mt-28"
                 style={{ width: 1000 }}
             >
-                <div className="font-black text-transparent text-7xl bg-clip-text bg-gradient-to-tl from-red-500 to-[var(--detail)] max-w-xl">
+                <div className="font-black text-transparent 2xl:text-7xl md:text-5xl bg-clip-text bg-gradient-to-tl from-red-500 to-[var(--detail)] max-w-xl ">
                     Hello!
                 </div>
-                <div className="text-white text-3xl font-medium">
+                <div className="text-white 2xl:text-3xl md:text-xl font-medium">
                     <div className="py-4">
                         <Typewriter
                             onInit={(typewriter) => {
