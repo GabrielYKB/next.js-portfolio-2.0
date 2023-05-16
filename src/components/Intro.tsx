@@ -3,7 +3,10 @@ import Typewriter from "typewriter-effect";
 
 export default function Intro() {
     return (
-        <div className="h-screen flex items-center" data-aos="fade-up">
+        <div
+            className="h-screen flex items-center p-6 sm:p-0"
+            data-aos="fade-up"
+        >
             <div
                 id="home"
                 className="rounded-3xl -mt-28"

@@ -26,7 +26,7 @@ export default function About() {
                         but also exceed the expectations of my clients and
                         end-users.
                     </p>
-                    <div className="bg-[var(--secondary)] rounded-lg text-start text-sm p-4 font-light text-gray-200 flex gap-10 justify-between px-8">
+                    <div className="bg-[var(--secondary)] rounded-lg text-start text-sm p-4 font-light text-gray-200 flex gap-10 justify-between md:px-8">
                         <div>
                             <p>Javascript</p>
                             <p>Typescript</p>

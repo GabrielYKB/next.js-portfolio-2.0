@@ -9,7 +9,7 @@ import ScrollDownIndicator from "./ScrollDownIndicator";
 export default function MainPage() {
     return (
         <div className="bg-[var(--bg)] h-full ">
-            <div className="flex fixed bottom-0 lg:left-12 flex-col items-center gap-4 sm:left-4 ">
+            <div className="flex fixed bottom-0 lg:left-12 flex-col items-center gap-4 sm:left-4 invisible md:visible ">
                 <a href="https://github.com/GabrielYKB">
                     <img
                         src="github-mark-white.svg"
@@ -33,14 +33,14 @@ export default function MainPage() {
                 </a>
                 <div className="text-white h-28 w-0.5 bg-[var(--detail)] " />
             </div>
-            <div className="flex fixed bottom-0 lg:right-12 flex-col items-center gap-28 w-8 sm:right-4">
+            <div className="flex fixed bottom-0 lg:right-12 flex-col items-center gap-28 w-8 sm:right-4 invisible md:visible ">
                 <p className=" rotate-90 text-white hover:text-[var(--detail)] duration-150 hover:duration-150">
                     Gabriel.yakooub@gmail.com
                 </p>
                 <div className=" h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
-            <div className="mx-auto container">
+            <div className="sm:mx-auto sm:container mx-10">
                 <Navbar />
                 <div className="">
                     <Intro />
