@@ -5,6 +5,7 @@ function IndexPage() {
         <div>
             <Head>
                 <title>Gabriel Yakoub</title>
+                <link rel="shortcut icon" href="/gabbelito.png" />
             </Head>
         </div>
     );
