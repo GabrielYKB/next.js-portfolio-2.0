@@ -20,20 +20,16 @@ export default function ProjectCardRight({
     link,
     id,
 }: Props) {
-    const style = { width: "110%" };
     return (
         <div
-            className="flex text-white items-center"
+            className="flex flex-col-reverse xl:flex-row text-white 2xl:items-center xl:items-start"
             id="cards"
             data-aos="fade-up"
             key={id}
         >
             <div className="flex flex-col items-start min-w-xl max-w-xl">
-                <p className="font-bold text-2xl mb-4">{title}</p>
-                <div
-                    className="bg-[var(--secondary)] rounded-md min-w-xl p-5 px-6 z-10"
-                    style={style}
-                >
+                <p className="font-bold text-2xl mb-4 mt-5 xl:mt-0">{title}</p>
+                <div className="bg-[var(--secondary)] rounded-md  p-5 px-6 z-10 xl:w-[110%]">
                     {desc}
                 </div>
                 <div className="flex gap-5 text-gray-300 my-4">

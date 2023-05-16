@@ -21,10 +21,9 @@ export default function ProjectCard({
     link,
     id,
 }: Props) {
-    const style = { width: "110%" };
     return (
         <div
-            className="flex text-white items-center"
+            className="flex flex-col xl:flex-row text-white 2xl:items-center xl:items-start lg:items-end"
             id="cards"
             data-aos="fade-up"
             key={id}
@@ -36,12 +35,9 @@ export default function ProjectCard({
                     className="aspect-video rounded-md"
                 />
             </div>
-            <div className="flex flex-col items-end min-w-xl max-w-xl">
-                <p className="font-bold text-2xl mb-4">{title}</p>
-                <div
-                    className="bg-[var(--secondary)] min-w-xl rounded-md p-5 px-6 text-right"
-                    style={style}
-                >
+            <div className="flex flex-col items-end max-w-xl">
+                <p className="font-bold text-2xl mb-4 mt-5 xl:mt-0">{title}</p>
+                <div className="bg-[var(--secondary)] min-w-xl rounded-md p-5 px-6 text-right xl:w-[110%]">
                     {desc}
                 </div>
                 <div className="flex gap-5 text-gray-300 my-4">
