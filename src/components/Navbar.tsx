@@ -2,8 +2,8 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
     return (
-        <div className="text-white flex justify-between items-center flex-wrap  z-50 py-3">
-            <div className="md:fixed md:left-3 md:top-3">
+        <div className="text-white flex justify-between items-center flex-wrap z-50 py-3">
+            <div className=" md:left-3 md:top-3">
                 <Link
                     to="home"
                     smooth={true}
@@ -14,7 +14,7 @@ export default function Navbar() {
                     Home
                 </Link>
             </div>
-            <nav className="flex gap-6 right md:fixed md:right-3 md:top-3">
+            <nav className="flex gap-6 right  md:right-3 md:top-3">
                 <Link
                     to="about"
                     smooth={true}

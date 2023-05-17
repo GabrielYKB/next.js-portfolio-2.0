@@ -42,7 +42,7 @@ export default function MainPage() {
                 <div className=" h-28 w-0.5 bg-[var(--detail)] " />
             </div>
 
-            <div className="sm:mx-auto sm:container mx-10">
+            <div className="sm:mx-auto md:container mx-10">
                 <Navbar />
                 <div className="">
                     <Intro />

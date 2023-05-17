@@ -4,7 +4,7 @@ import Hero from "./Hero";
 export default function About() {
     return (
         <div id="about" className=" text-white mb-16" data-aos="fade-up">
-            <div className="mb-16 text-2xl font-semibold text-white flex items-center gap-6">
+            <div className=" text-2xl font-semibold text-white flex items-center gap-6">
                 <h3 className="flex items-center">About Me</h3>
                 <div className="h-0.5 xl:w-96 sm:w-60 lg:w-80 bg-[var(--detail)] relative top-1 w-40" />
             </div>
